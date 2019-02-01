@@ -9,3 +9,8 @@ Command Line Curl Installer and Executor
 import cmdcurl
 print(cmdcurl.execute("curl 'http://google.com'"))
 ```
+
+Simple.
+
+On Import, it will check if curl is installed, 
+If not, it will install automagicly!
