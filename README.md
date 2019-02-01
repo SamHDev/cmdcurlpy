@@ -6,4 +6,4 @@ python3 -m pip install cmdcurlpy
 
 ## Usage
 import cmdcurl
-cmdcurl.execute("curl google.com
+print(cmdcurl.execute("curl 'http://google.com'"))
