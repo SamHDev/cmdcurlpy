@@ -5,5 +5,7 @@ Command Line Curl Installer and Executor
 python3 -m pip install cmdcurlpy
 
 ## Usage
+```py
 import cmdcurl
 print(cmdcurl.execute("curl 'http://google.com'"))
+```
